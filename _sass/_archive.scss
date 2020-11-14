@@ -4,6 +4,7 @@
 
 .archive {
   margin-bottom: 2em;
+  background-color: rgb(245, 245, 245);
 
   @include breakpoint($medium) {
     @include span(12 of 12);
@@ -91,14 +92,17 @@
 
 .list__item {
   @include breakpoint($medium) {
+    background-color: white;
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($large) {
+    background-color:  rgb(250, 250, 250);
     padding-right: $right-sidebar-width;
   }
 
   @include breakpoint($x-large) {
+    background-color: rgb(250, 250, 250);
     padding-right: $right-sidebar-width-wide;
   }
 

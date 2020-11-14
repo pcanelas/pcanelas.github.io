@@ -2,11 +2,9 @@
 
 {% case site.analytics.provider %}
 {% when "google" %}
-  {% include /analytics-providers/google.html %}
+{% include /analytics-providers/google.html %}
 {% when "google-universal" %}
-  {% include /analytics-providers/google-universal.html %}
-{% when "custom" %}
-  {% include /analytics-providers/custom.html %}
+{% include /analytics-providers/google-universal.html %}
 {% endcase %}
 
 {% endif %}
