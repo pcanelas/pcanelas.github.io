@@ -1,15 +1,11 @@
 ---
-title: "Refined Typed Genetic Programming as a user interface for Genetic Programming"
+title: 'Refined Typed Genetic Programming as a user interface for Genetic Programming'
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2020-07-01
 venue: "GECCO'20"
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+doi: '10.1145/3377929.3390042'
+pdf: 'http://academicpages.github.io/files/paper2.pdf'
+paperurl: 'https://dl.acm.org/doi/pdf/10.1145/3377929.3390042'
+authors: Paulo Santos, Sara Silva, Alcides Fonseca 
+citation: "<b>Paulo Santos</b>, Sara Silva, Alcides Fonseca. Refined typed genetic programming as a user interface for genetic programming. In Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion. Association for Computing Machinery, New York, NY, USA, 251–252"
 ---
-This paper is about the number 3. The number 4 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).

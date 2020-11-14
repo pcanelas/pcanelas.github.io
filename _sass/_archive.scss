@@ -4,7 +4,6 @@
 
 .archive {
   margin-bottom: 1em;
-  background-color: rgb(245, 245, 245);
 
   @include breakpoint($medium) {
     @include span(12 of 12);
@@ -41,6 +40,7 @@
 }
 
 .archive__item-title {
+  margin-bottom: -5pt;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -52,7 +52,7 @@
 .page__content {
 
   .archive__item-title {
-    margin-top: 0.1em;
+    //margin-top: 0.1em;
     border-bottom: none;
   }
 }
@@ -87,15 +87,17 @@
 
 .list__item {
   @include breakpoint($medium) {
-    background-color: white;
+    margin-bottom: 2.5em;
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($large) {
+    margin-bottom: 2.5em;
     padding-right: $right-sidebar-width;
   }
 
   @include breakpoint($x-large) {
+    margin-bottom: 2.5em;
     padding-right: $right-sidebar-width-wide;
   }
 
