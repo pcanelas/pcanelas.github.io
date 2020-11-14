@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .archive {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   background-color: rgb(245, 245, 245);
 
   @include breakpoint($medium) {
@@ -53,7 +53,7 @@
 .page__content {
 
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0.1em;
     border-bottom: none;
   }
 }
@@ -177,27 +177,6 @@
     .feature__item-teaser {
       max-height: 200px;
       overflow: hidden;
-    }
-  }
-
-  &--left {
-    @include full();
-    font-size: 1.25rem;
-
-    .archive__item-teaser {
-      margin-bottom: 2em;
-    }
-
-    @include breakpoint($small) {
-      .archive__item-teaser {
-        @include span(5 of 12);
-      }
-
-      .archive__item-body {
-        @include span(7 of 12 last);
-        @include prefix(0.5 of 12);
-        @include suffix(1 of 12);
-      }
     }
   }
 
