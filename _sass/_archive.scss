@@ -41,7 +41,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: -1.0em;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -79,10 +79,6 @@
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
-
-  .archive__item-title {
-    text-decoration: underline;
-  }
 }
 
 
@@ -97,12 +93,10 @@
   }
 
   @include breakpoint($large) {
-    background-color:  rgb(250, 250, 250);
     padding-right: $right-sidebar-width;
   }
 
   @include breakpoint($x-large) {
-    background-color: rgb(250, 250, 250);
     padding-right: $right-sidebar-width-wide;
   }
 
@@ -177,6 +171,27 @@
     .feature__item-teaser {
       max-height: 200px;
       overflow: hidden;
+    }
+  }
+
+  &--left {
+    @include full();
+    font-size: 1.25rem;
+
+    .archive__item-teaser {
+      margin-bottom: 2em;
+    }
+
+    @include breakpoint($small) {
+      .archive__item-teaser {
+        @include span(5 of 12);
+      }
+
+      .archive__item-body {
+        @include span(7 of 12 last);
+        @include prefix(0.5 of 12);
+        @include suffix(1 of 12);
+      }
     }
   }
 

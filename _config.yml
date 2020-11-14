@@ -12,7 +12,6 @@ breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" 
-talkmap_link             : false
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -78,9 +77,11 @@ author:
   bio              : "Doctoral Student @ LASIGE"
   location         : "Lisbon, Portugal"
   employer         :
-  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=NhtQES0AAAAJ&hl=pt-PT&oi=ao"
   email            : "psantos@lasige.di.fc.ul.pt"
+  twitter          : "pcanelassantos"
+  github           : "pcanelas"
+  pubmed           : 
   researchgate     : 
   uri              :
   bitbucket        :
@@ -89,7 +90,6 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "pcanelas"
   google_plus      :
   keybase          :
   instagram        :
@@ -102,7 +102,6 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "pcanelassantos"
   vine             :
   weibo            :
   xing             :
@@ -188,7 +187,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
