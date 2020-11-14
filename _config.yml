@@ -4,7 +4,7 @@ title                    : "Paulo Santos"
 title_separator          : \|
 name                     : &name "Paulo Santos"
 description              : &description "Doctoral Student @ LASIGE"
-url                      : "https://pcanelas.github.io"
+url                      : https://pcanelas.github.io
 baseurl                  : "" 
 repository               : "pcanelas/pcanelas.github.io"
 teaser                   : 
