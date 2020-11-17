@@ -15,7 +15,7 @@ Outside of 'geek world', I'm an easy-going person who likes traveling and explor
 <p>
 
 <p>
-Other than university I have also been enrolled in other academic projects and schools. You can find the most recent ones below!
+Other than university I have also been enrolled in other academic projects and schools. You can find the most recent ones below.
 </p>
 
 

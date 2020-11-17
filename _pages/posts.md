@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /posts/
-title: "Posts"
+permalink: /software/
+title: "Software"
 ---
 
 {% include base_path %}
