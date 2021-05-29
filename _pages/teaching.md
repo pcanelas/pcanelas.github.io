@@ -1,11 +1,7 @@
 ---
-#layout: archive
-title: "Teaching"
+layout: page
+title: Teaching
 permalink: /teaching/
 ---
 
-{% include base_path %}
-
-{% for post in site.teaching reversed %}
-{% include archive-single.html %}
-{% endfor %}
+* Teaching Assistant, 2021-2022, **Object Oriented Programming**, Faculty of Sciences of University of Lisbon
