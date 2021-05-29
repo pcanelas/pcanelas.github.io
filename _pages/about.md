@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# About me
-
-I am a PhD Student in LASIGE at the Faculty of Sciences, University of Lisbon under the supervision of Alcides Fonseca. I finished my BSc. and MSc. degree in Computer Science in the same university. I have a special interest in programming languages, program synthesis, and evolutionary algorithms. Outside of 'geek world', I'm an easy-going person who likes traveling and exploring the local gastronomy.
+I am a PhD Student in LASIGE at the Faculty of Sciences, University of Lisbon under the supervision of Alcides Fonseca and Sara Silva and at Carnegie Mellon University under the supervision of Chris S. Timperley. I finished my BSc. and MSc. degree in Computer Science in the same university. I have a special interest in programming languages, program synthesis, and evolutionary algorithms. Outside of 'geek world', I'm an easy-going person who likes traveling and exploring the local gastronomy.
 
 Other than university I have also been enrolled in other academic projects and schools. You can find the most recent ones below.
 EDP University Challenge - Portugal, Top15 (2020)
