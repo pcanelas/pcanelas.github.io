@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Æon Programming Language
-permalink: /aeon/
+permalink: /software/aeon/
 categories: [Program Synthesis, Refinement Types, Genetic Programming]
 ---
 
