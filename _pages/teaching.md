@@ -4,4 +4,4 @@ title: Teaching
 permalink: /teaching/
 ---
 
-* Teaching Assistant, 2021-2022, **Object Oriented Programming**, Faculty of Sciences of University of Lisbon
+* Teaching Assistant. **Object Oriented Programming**. Faculdade de Ciências da Universidade de Lisboa. 2021-2022.
