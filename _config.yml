@@ -10,7 +10,7 @@ author: Paulo Santos
 description: Personal Page
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/paulo-santos.png
+avatar: /images/reverie.png
 
 #
 # Flags below are optional
@@ -85,7 +85,7 @@ plugins:
   - jekyll-paginate
 
 include: ['_pages']
-include: ['_pages/_software-pages']
+# include: ['_pages/_software-pages']
 
 paginate: 6
 paginate_path: /page:num/
