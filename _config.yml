@@ -85,7 +85,7 @@ plugins:
   - jekyll-paginate
 
 include: ['_pages']
-# include: ['_pages/_software-pages']
+include: ['_pages/_software-pages']
 
 paginate: 6
 paginate_path: /page:num/

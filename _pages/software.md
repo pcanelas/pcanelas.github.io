@@ -4,4 +4,4 @@ title: Software
 permalink: /software/
 ---
 
-### [The Aeon Programming Language](/aeon) 
+### [The Aeon Programming Language](software/aeon) 
