@@ -5,7 +5,7 @@ permalink: /software/aeon/
 categories: [Program Synthesis, Refinement Types, Genetic Programming]
 ---
 
-**Æon** is a programming language with polymorphism and non-restricted-refined types. This language is used as the basis for Refinement Typed Genetic Programming due to its support of static verification of polymorphism.
+**Æon** is a programming language with polymorphism and non-liquid refined types. This language is used as the basis for Refinement Typed Genetic Programming due to its support of static verification of polymorphism.
 It is important to make notice that while the **Æon** language does not make any distiction, there are two classes of refinements: **liquid refinements** and **non-liquid refinements**.
 
 **Liquid refinements** are those whose satisfiability is statically verified using a SMT Solver.
