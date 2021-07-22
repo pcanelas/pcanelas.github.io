@@ -117,9 +117,9 @@ def create_fitness_function(max_weight, values, weights):
 The explanation for providing the fitness function is quite more lengthy than the previous ones. If you try to provide an incomplete description, ~~and for personal experience~~, the framework will not produce you a good solution for evaluating your fitness.
 
 
-## Step 3: Synthesizing the GeneticAlgorithm Class
+## Step 3: Synthesizing the GeneticAlgorithm
 
-The first concern I had when reading the main procedure was if the Copilot would automatically generate the class? The answer for the majority of the time is yes. However, there is one point to be careful. The system does not know what attributes are needed in this class, so it will either simply generate the ones according to the `init`parameters, or, for some unknown reason, generate +15 garbage attributes. So what typically will happen is, as you are writing the class methods, you will need to add the remaining required attributes by hand.
+The first concern I had when reading the main procedure was if the Copilot would automatically generate the class? The answer for the majority of the time is yes. However, there is one point to be careful. The system does not know what attributes are needed in this class, so it will either simply generate the ones according to the `init` parameters, or, for some unknown reason, generate +15 garbage attributes. So what typically will happen is, as you are writing the class methods, you will need to add the remaining required attributes by hand.
 ```python
 '''
     Create the Genetic Algorithm class.
@@ -189,7 +189,7 @@ def evolve(self):
 ```
 
 
-## Stage 4: Can it generate different Genetic Functions?
+## Step 4: Generation of Genetic Functions?
 
 The final step is to generate the `crossover` and `mutate` operations. At this point, we are already aware of the Github Copilot abilities. Therefore, the question I will target is: What type of crossover and mutation techniques can it generate? Can it generate multiple point mutations? Long story short, it can develop quite a few different techniques (at least to some point). Sometimes during mutation, it was challenging to ensure what operation we are trying to do. I will leave here one example for each of the generated mutations and recombination.
 
