@@ -52,7 +52,7 @@ Before proceeding to the next step, I made some changes. I created two arrays, o
 
 So, since the `create_population` and `create_fitness_function` are not yet implemented. I asked Github Copilot to provide me the implementations for each method. 
 
-After some comments instrumentation, I was able to get from the framework implementation for the first function, which seemed all right. A quick tip: at this point, being generic will not help at all... Although the Knapsack is a well-known problem, Github Copilot cannot reasoning about what it should do. 
+After some comments instrumentation, I was able to get from the framework implementation for the first function, which seemed all right. A quick tip: at this point, being generic will not help at all... Although the Knapsack is a well-known problem, Github Copilot cannot reason about what it should do. 
 ```python
 '''
     Create a population for the KnapSack problem. 
