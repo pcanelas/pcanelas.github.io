@@ -4,7 +4,7 @@ title: Can Github Copilot Evolve?
 categories: [Github,Copilot,Synthesis]
 ---
 
-I recently got access to the revolutionary [Github Copilot](https://copilot.github.com/) tool. As any other programmer, I decided to start simple and check its ability to generate an evolutionary algorithm for the Knapsack problem. So, let us try and see how hard it can be for Github Copilot to evolve.
+I recently got access to the revolutionary [Github Copilot](https://copilot.github.com/) tool. As any other programmer, I decided to start simple and check its ability to generate an evolutionary algorithm for the Knapsack problem. So, I will share with you my experience and let us try and see how hard it can be for Github Copilot to evolve.
 
 To those unfamiliar with the Knapsack problem, I will give a brief personalized summary:
 > Last week Bob invited you to go camping. When preparing your backpack, you remember that you did not attend the gym for the entire year, and so there is a max weight of items you can carry. Plus, all the items you plan to take may have a different value to you. Therefore, your objective is to maximize the value of items you can carry in your backpack.
