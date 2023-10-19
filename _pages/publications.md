@@ -6,6 +6,12 @@ permalink: /publications/
 -----------------------------
 # 2023
 
+**Is it a Bug? Understanding Physical Unit Mismatches in Robot Software.**
+*Coming Soon.*
+
+**Understanding Misconfigurations in ROS: An Empirical Study and Current Approaches.**
+*Coming Soon.*
+
 **Usability-Oriented Design of Liquid Types for Java**,
 Catarina Gamboa, **Paulo Canelas**, Christopher S. Timperley, Alcides Fonseca. In *International Conference on Software Engineering (ICSE)*, 2023.
 
