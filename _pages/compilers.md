@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: Optimizing Compilers 15-745
 permalink: /optimizing-compilers/
 ---
 
-# Detecting Runtime Check Patterns and Applying Optimization in GVC0
+## Detecting Runtime Check Patterns and Applying Optimization in GVC0
 
 [Sam Estep](https://samestep.com) and [Paulo Canelas](htpps://pcanelas.com)
 
