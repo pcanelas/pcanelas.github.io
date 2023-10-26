@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Optimizing Compilers 15-745
 permalink: /optimizing-compilers/
 ---
