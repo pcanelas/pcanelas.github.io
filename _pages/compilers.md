@@ -2,6 +2,7 @@
 layout: post
 title: Optimizing Compilers 15-745
 permalink: /optimizing-compilers/
+author: Sam Estep and Paulo Canelas
 ---
 
 ## Detecting Runtime Check Patterns and Applying Optimization in GVC0
