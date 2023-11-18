@@ -23,12 +23,12 @@ Project Poster: *Coming Soon*
 
 ## Project Description
 
-Gradual verification [Bader et al., 2018] is a technique that allows developers to incrementally and progressively verify their system by introducing partial specifications. 
+Gradual verification [[Bader et al., 2018](http://www.cs.cmu.edu/~aldrich/papers/vmcai2018-gradual-verification.pdf)] is a technique that allows developers to incrementally and progressively verify their system by introducing partial specifications. 
 Specifications in gradual verification are statically and dynamically verified.
 Statically, the verifier assumes any strenghtening of imprecise specifications, and to guarantee soundness, it generates dynamic checks when the partial specifications are optimistically strengthened. 
 
-GVC0 [DiVicenzo et al., 2022] is an existing technique for gradual verification is gradual verification which allows one to introduce partial specifications. 
-These partial specifications contain static verifications and checks that can only be checked at runtime that are inserted into GVC0. GVC0 is a tool that works on C0 [Arnold et al., 2010], a C version used for education, augmented with specifications for gradual verification. In our work, the idea is to take these GVC0 programs and optimize the runtime checks performed.
+GVC0 [[DiVincenzo et al., 2022](https://arxiv.org/abs/2210.02428)] is an existing technique for gradual verification is gradual verification which allows one to introduce partial specifications. 
+These partial specifications contain static verifications and checks that can only be checked at runtime that are inserted into GVC0. GVC0 is a tool that works on C0 [[Arnold et al., 2010](http://reports-archive.adm.cs.cmu.edu/anon/2010/CMU-CS-10-145.pdf)], a C version used for education, augmented with specifications for gradual verification. In our work, the idea is to take these GVC0 programs and optimize the runtime checks performed.
 
 To this end, this work intends to answer the following two research questions.
 
@@ -36,7 +36,7 @@ To this end, this work intends to answer the following two research questions.
 
 - **RQ2. To what extent do optimizations to runtime checks impact program performance?**
 
-To answer RQ1, we intend to execute GVC0 on the datasets presented in prior work [Wise et al., 2020; DiVincenzo et al., 2022], manually inspect the generated code with the injected execution checks, study the patterns in which these are introduced, and figure out how they can be optimized.
+To answer RQ1, we intend to execute GVC0 on the datasets presented in prior work [[Wise et al., 2020](https://dl.acm.org/doi/10.1145/3428296); [DiVincenzo et al., 2022](https://arxiv.org/abs/2210.02428)], manually inspect the generated code with the injected execution checks, study the patterns in which these are introduced, and figure out how they can be optimized.
 Regarding RQ2, we plan to use the detected patterns to improve the generated code. We will perform the optimization by either (a) changing the way runtime checks are introduced by GVC0, or (b) developing LLVM passes that detect a pattern and perform an optimization.
 Finally, we will evaluate the impact of the optimizations by comparing the runtime performance of the original code with and without optimizations.
 
