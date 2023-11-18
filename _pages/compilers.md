@@ -5,13 +5,15 @@ permalink: /optimizing-compilers/
 author: Sam Estep and Paulo Canelas
 ---
 
-### Detecting Runtime Check Patterns and Applying Optimization in GVC0
+# Detecting Runtime Check Patterns and Applying Optimization in GVC0
 
 ---
 
+## Reports
+
 [Project Proposal (PDF)](https://pcanelas.com/images/compilers-proposal.pdf)
 
-Project Milestone: *Coming Soon*
+Project Milestone (PDF): *Coming Soon*
 
 Project Final Report: *Coming Soon*
 
@@ -19,7 +21,7 @@ Project Poster: *Coming Soon*
 
 ---
 
-#### Project Description
+## Project Description
 
 Gradual verification [Bader et al., 2018] is a technique that allows developers to incrementally and progressively verify their system by introducing partial specifications. 
 Specifications in gradual verification are statically and dynamically verified.
@@ -45,3 +47,6 @@ We define the goals of the project as follows:
 2. **100% Goal:** Same as the 75% goal, plus an extra optimization. Perform an ablation study, and check if performance changes as optimizations are applied.
 
 3. **125% Goal:** Same as the 100% goal, plus implement remaining optimizations depending on the number of patterns discovered.
+
+---
+
