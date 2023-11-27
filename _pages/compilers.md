@@ -13,7 +13,7 @@ author: Sam Estep and Paulo Canelas
 
 [Project Proposal (PDF)](https://pcanelas.com/images/compilers-proposal.pdf)
 
-Project Milestone (PDF): *Coming Soon*
+[Project Milestone (PDF)](https://pcanelas.com/images/compilers-milestone.pdf)
 
 Project Final Report: *Coming Soon*
 
