@@ -15,9 +15,9 @@ author: Sam Estep and Paulo Canelas
 
 [Project Milestone (PDF)](https://pcanelas.com/images/compilers-milestone.pdf)
 
-Project Final Report: *Coming Soon*
+[Project Final Report (PDF)](https://pcanelas.com/images/compilers-final.pdf)
 
-Project Poster: *Coming Soon*
+[Project Poster (PDF)](https://pcanelas.com/images/compilers-poster.pdf)
 
 ---
 
