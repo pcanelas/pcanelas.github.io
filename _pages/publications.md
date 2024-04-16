@@ -4,28 +4,34 @@ title: Publications
 permalink: /publications/
 ---
 -----------------------------
-# 2023
+# 2024
 
 **Is it a Bug? Understanding Physical Unit Mismatches in Robot Software.**
-*Coming Soon.*
+**Paulo Canelas**, Trenton Tabor, John-Paulo Ore, Alcides Fonseca, Claire Le Goues, Christopher S. Timperley. In *International Conference on Robotics and Automation (ICRA)*, 2024.
 
-**Understanding Misconfigurations in ROS: An Empirical Study and Current Approaches.**
-*Coming Soon.*
 
-**Usability-Oriented Design of Liquid Types for Java**,
+-----------------------------
+# 2023
+
+
+**Usability-Oriented Design of Liquid Types for Java.**
+
 Catarina Gamboa, **Paulo Canelas**, Christopher S. Timperley, Alcides Fonseca. In *International Conference on Software Engineering (ICSE)*, 2023.
 
 
 -----------------------------
 # 2022
 
-**Data types as a more ergonomic frontend for Grammar-Guided Genetic Programming**,
+**Data types as a more ergonomic frontend for Grammar-Guided Genetic Programming**
+
 Guilherme Espada, Leon Ingelse, **Paulo Canelas**, Pedro Barbosa, Alcides Fonseca, in *Proceedings of the 21st ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences*, 2022.
 
-**An Experience Report on Challenges in Learning the Robot Operating System**, 
+**An Experience Report on Challenges in Learning the Robot Operating System**
+
 **Paulo Canelas**, Miguel Tavares, Ricardo Cordeiro, Alcides Fonseca, Christopher Steven Timperley, in *IEEE/ACM 4th International Workshop on Robotics Software Engineering (RoSE)*, 2022.
 
-**Grammatical Evolution Mapping for Semantically-Constrained Genetic Programming**, 
+**Grammatical Evolution Mapping for Semantically-Constrained Genetic Programming**
+
 Alcides Fonseca, **Paulo Santos**, Guilherme Espada, Sara Silva, in *Genetic Programming Theory and Practice XVIII*, 2022.
 
 -----------------------------
