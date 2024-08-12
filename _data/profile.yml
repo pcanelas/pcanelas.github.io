@@ -15,12 +15,16 @@ gscholar: NhtQES0AAAAJ
 github: pcanelas
 twitter: pcanelassantos
 linkedin: paulo-canelas-santos
-orcid: 0000-0002-0154-8989
+#orcid: 0000-0002-0154-8989
 
 short_bio: >-
   <p>
-  I am a PhD. student working under the supervision of Alcides Fonseca, Sara Silva and Chris Timperley.
-  My research focuses on developing program analysis techniques to detect errors in software systems. Previously, I worked on evolutionary program synthesis using refinement types, and I am currently closely researching the application of software engineering techniques to the robotics field (Software Engineering for Robotics). </p>
+  I am a PhD student working under the supervision of 
+  <a href="https://wiki.alcidesfonseca.com">Alcides Fonseca</a>,
+  <a href="https://eden.dei.uc.pt/~sara/research.html">Sara Silva</a>, and
+  <a href="https://chris.timperley.info">Christopher S. Timperley</a>.
+  My research focuses on developing program analysis techniques to detect errors in software systems. 
+  Previously, I worked on evolutionary program synthesis using refinement types, and I am currently closely researching the application of software engineering techniques to the robotics field (Software Engineering for Robotics).</p>
 
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -48,7 +52,7 @@ education:
 experience:
 - name: Uber Technologies Inc.
   logo: /assets/images/badges/uber.png
-  position: PhD. Research Intern
+  position: PhD Software Engineer Research Intern
   date: May 2024 - Aug. 2024
 
 teaching:
