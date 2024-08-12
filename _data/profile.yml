@@ -59,9 +59,9 @@ teaching:
 - name: Carnegie Mellon University
   logo: /assets/images/badges/cmu.png
   position: Teaching Assistant
-  course1: Quality Management
+  course1: 17-643 -  Quality Management
   date1: Mar. 2024 - May 2024
-  course2: Quality Assurance
+  course2: 17-623 - Quality Assurance
   date2: Oct. 2023 - Dec. 2023
 
 - name: Faculty of Sciences of University of Lisbon

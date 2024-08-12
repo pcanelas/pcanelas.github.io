@@ -16,4 +16,6 @@ authors:
 links:
   DOI: https://doi.org/10.1145/3526071.3527521
   Paper: https://rose-workshops.github.io/files/rose2022/papers/RoSE22_paper_11.pdf
+  Poster: /assets/poster/2022-poster-ros-challenges.pdf
+  Slides: /assets/slides/2022-rose-ros-experience.pdf
 ---
