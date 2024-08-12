@@ -1,50 +1,28 @@
 ---
 layout: default
+title : Homepage
+navbar_title: Home
 ---
+{% include widgets/profile_card.html %}
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1>{{ post.title }}</h1>
+{% include widgets/url_debug_message.html %}
 
-        <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
-        </div>
-      </a>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+{% if site.data.display.homepage.show_experience %}
+{% include widgets/experience_card.html %}
+{% endif %}
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-  <p class="has-line-data" data-line-start="0" data-line-end="1">I am a Ph.D. Student at at the <a href="https://s3d.cmu.edu">Software and Societal Systems Department</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a> and at <a href="https://www.lasige.pt/">LASIGE</a> at the <a href="https://ciencias.ulisboa.pt/">Faculdade de Ciências da Universidade de Lisboa</a>. I am working under the supervision of <a href="https://wiki.alcidesfonseca.com/">Alcides Fonseca</a> and <a href="https://gplab.sourceforge.net/sara/">Sara Silva</a> and at University of Lisbon, and <a href="http://www.christimperley.co.uk/">Chris Timperley</a> at Carnegie Mellon. I have a special interest in program analysis, program repair, evolutionary computation and robotic systems.</p>
-  <p class="has-line-data" data-line-start="2" data-line-end="3">Currently, I am working on the study, detection and repair of component misconfigurations in robotic systems.</p>
-    <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
+{% if site.data.display.homepage.show_selected_publications %}
+{% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+{% 
+    include widgets/publication_card.html 
+    publications=pubs
+    title='<i class="fas fa-star"></i>&nbsp;&nbsp;Selected Publications'
+%}
+{% endif %}
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-  </div>
-  {% endif %}
-</div>
+{% if site.data.display.homepage.show_news %}
+{% assign count_news = site.news | size %}
+{% if count_news > 0 %}
+{% include widgets/news_card.html %}
+{% endif %}
+{% endif %}
