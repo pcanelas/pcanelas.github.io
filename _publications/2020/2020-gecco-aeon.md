@@ -15,6 +15,6 @@ authors:
 links:
   DOI: https://doi.org/10.1145/3377929.3390042
   Paper: https://www.researchgate.net/profile/Alcides-Fonseca/publication/344480869_Refined_typed_genetic_programming_as_a_user_interface_for_genetic_programming/links/6164284c1eb5da761e7a6f90/Refined-typed-genetic-programming-as-a-user-interface-for-genetic-programming.pdf
-  Poster: /assets/poster/2020-poster-aeon.pdf
   Artifact: https://github.com/alcides/aeon
+  Poster: /assets/poster/2020-poster-aeon.pdf
 ---

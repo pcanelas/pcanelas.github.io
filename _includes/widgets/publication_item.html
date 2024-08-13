@@ -32,6 +32,9 @@
                     {% if link[0] == "Poster" %}
                     <i class="fa fa-image"></i>
                     {% endif %}
+                    {% if link[0] == "Talk" %}
+                    <i class="fa fa-video"></i>
+                    {% endif %}
                     {% if link[1].url %}
                     <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">{{ link[0] }}</a>
                     {% else %}

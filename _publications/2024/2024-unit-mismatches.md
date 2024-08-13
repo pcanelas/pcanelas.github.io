@@ -21,4 +21,5 @@ links:
   DOI: https://doi.org/10.1109/ICRA57147.2024.10611413
   Paper: https://squareslab.github.io/materials/canelas2024physunits.pdf
   Slides: /assets/slides/2024-icra-mismatches.pdf
+  Talk: https://youtu.be/1ydS5VbZVfc
 ---

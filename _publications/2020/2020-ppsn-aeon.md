@@ -14,6 +14,6 @@ authors:
 links:
   DOI: https://doi.org/10.1007/978-3-030-58115-2_2
   Paper: https://www.researchgate.net/publication/344039440_The_Usability_Argument_for_Refinement_Typed_Genetic_Programming
-  Poster: /assets/poster/2020-poster-aeon.pdf
   Artifact: https://github.com/alcides/aeon
+  Poster: /assets/poster/2020-poster-aeon.pdf
 ---
