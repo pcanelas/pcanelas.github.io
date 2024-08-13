@@ -32,7 +32,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 
 education:
-- name: Carnegie Mellon University, School of Computer Science
+- name: Carnegie Mellon University
   logo: /assets/images/badges/cmu.png
   position: Dual Degree PhD in Software Engineering with University of Lisbon
   thesis: "Thesis: Specification-Driven Detection of Misconfigurations in ROS-based Robotic Systems"
