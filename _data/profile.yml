@@ -18,7 +18,7 @@ linkedin: paulo-canelas-santos
 #orcid: 0000-0002-0154-8989
 
 short_bio: >-
-  <p>
+  <p style="text-align: justify; text-justify: inter-word;">
   I am a PhD student working under the supervision of 
   <a href="https://wiki.alcidesfonseca.com">Alcides Fonseca</a>,
   <a href="https://eden.dei.uc.pt/~sara/research.html">Sara Silva</a>, and
