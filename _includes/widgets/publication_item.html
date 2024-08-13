@@ -14,15 +14,34 @@
             <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }}. {{ item.pub_date }}.&nbsp;&nbsp;{{ item.pub_last }}</p>
             <p class="mt-0 mb-0 small text-muted" style="text-align: justify; text-justify: inter-ideograph;">{{ item.abstract }}</p>
             
-            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+            <div class="link-container">
                 {% for link in item.links %}
-                {% if link[1].url %}
-                <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
-                {% else %}
-                <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
-                {% endif %}
+                <div class="link-box">
+                    {% if link[0] == "DOI" %}
+                    <i class="fa fa-link"></i>
+                    {% endif %}
+                    {% if link[0] == "Paper" or link[0] == "Thesis" %}
+                    <i class="fa fa-file-alt"></i>
+                    {% endif %}
+                    {% if link[0] == "Slides" %}
+                    <i class="fa fa-chalkboard-teacher"></i>
+                    {% endif %}
+                    {% if link[0] == "Artifact" %}
+                    <i class="fa fa-database"></i>
+                    {% endif %}
+                    {% if link[0] == "Poster" %}
+                    <i class="fa fa-image"></i>
+                    {% endif %}
+                    {% if link[1].url %}
+                    <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">{{ link[0] }}</a>
+                    {% else %}
+                    <a target="_blank" href="{{ link[1] }}">{{ link[0] }}</a>
+                    {% endif %}
+                </div>
                 {% endfor %}
-            </p>
+            </div>
+            
+                    
 
         </div>
     </div>
