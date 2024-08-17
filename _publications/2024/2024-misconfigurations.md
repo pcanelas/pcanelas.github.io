@@ -22,5 +22,5 @@ links:
   DOI: https://doi.org/10.1145/3650212.3680350
   Paper: https://arxiv.org/pdf/2407.19292
   Artifact: https://doi.org/10.5281/zenodo.12643079
-  Slides: /assets/slides/2024-issta-misconfigurations.pdf
+  #Slides: /assets/slides/2024-issta-misconfigurations.pdf
 ---
