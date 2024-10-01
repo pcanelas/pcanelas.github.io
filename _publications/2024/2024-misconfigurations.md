@@ -5,7 +5,7 @@ selected:       true
 pub:            "International Symposium on Software Testing and Analysis (ISSTA)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       '<span class="badge badge-pill badge-publication badge-success">Just Accepted!</span>&nbsp;&nbsp; 🎉'
+#pub_last:       '<span class="badge badge-pill badge-publication badge-success">Just Accepted!</span>&nbsp;&nbsp; 🎉'
 pub_date:       "2024"
 
 abstract: >-
