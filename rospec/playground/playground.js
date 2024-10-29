@@ -5,7 +5,7 @@ CodeMirror.defineSimpleMode("adl", {
         {regex: /\b(subscribers|subscribes to|publishes to|publishers)\b/, token: "connection-keyword"},
         {regex: /\b(exists|count|eventually|always)\b/, token: "special-keyword"},
         {regex: /\b(int|float|double|bool|string)\b/, token: "ttype"},
-        {regex: /\b([a-zA-Z][a-zA-Z0-9_]+\/[a-zA-Z0-9_]+)\b/, token: "ttype"},
+        {regex: /\b([a-z0-9_]+\/[a-zA-Z0-9_]*[A-Z][a-zA-Z0-9_\/]*)\b/, token: "ttype"},
         {regex: /\b([A-Z][a-zA-Z0-9_]+)\b/, token: "ttype"},
         {regex: /\b([a-zA-Z_]+)\b/, token: "variable"},
         {regex: /\b\d+\b/, token: "number"},
