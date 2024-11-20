@@ -23,7 +23,7 @@ button {
     border-radius: 5px;
     width: 100%;
     font-size: 14px;
-    font-family: 'JetBrains Mono', monospace; /* Use JetBrains Mono font */
+    font-family: 'JetBrains Mono', monospace;
     line-height: 1.5;
     text-align: left;
     margin: auto;
@@ -31,13 +31,13 @@ button {
 }
 
 /* Custom syntax highlighting colors */
-.cm-rospec-keyword { color: #000000; font-weight: bold; } /* Black for keywords */
+.cm-rospec-keyword { color: #000000; font-weight: bold; }
 .cm-special-keyword { color: darkorange; font-weight: bold; }
-.cm-connection-keyword { color: #9e0154; font-weight: bold; }
-.cm-ttype { color: #083088; } /* Blue for types */
-.cm-variable { color: #9f0000; } /* Dark red for variable names */
-.cm-operator { color: #000000; } /* Black for operators */
-.cm-number { color: #FF4500; } /* Orange-red for numbers */
+.cm-connection-keyword { color: #87004b; font-weight: bold; }
+.cm-ttype { color: #083088; }
+.cm-variable { color: #830000; }
+.cm-operator { color: #000000; }
+.cm-number { color: #FF4500; }
 .cm-rospec-comment { color: #9e9e9e; font-style: italic; }
 .cm-string { color: darkorange; }
 

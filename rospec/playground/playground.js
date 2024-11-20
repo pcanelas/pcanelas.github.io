@@ -1,10 +1,12 @@
 // Define the custom ADL syntax highlighting mode
 CodeMirror.defineSimpleMode("adl", {
     start: [
-        {regex: /\b(node|type|message|alias|field|from|instance|expects|ensures|and|or|optional|topic|param|where)\b/, token: "rospec-keyword"},
-        {regex: /\b(subscribers|subscribes to|publishes to|publishers|remapping to)\b/, token: "connection-keyword"},
-        {regex: /\b(exists|count|eventually|always)\b/, token: "special-keyword"},
+        {regex: /\b(subscribers|subscribes to|publishes to|publishers|remapping to|calls service)\b/, token: "connection-keyword"},
+        {regex: /\b(node|type|policy|rules|attach|message|service|action|qos policy|frame|link|hierarchy|alias|field|from|nodelet|instance|expects|ensures|and|or|optional|topic|param|where)\b/, token: "rospec-keyword"},
+        {regex: /\b(exists|count|eventually|always|tag|qos|in|out|context|childs|parents)\b/, token: "special-keyword"},
+        {regex: /@/, token: "special-keyword"}, // Added standalone @ symbol
         {regex: /\b(int|float|double|bool|string)\b/, token: "ttype"},
+        {regex: /\btrue|false\b/, token: "number"},
         {regex: /\b([a-z0-9_]+\/[a-zA-Z0-9_]*[A-Z][a-zA-Z0-9_\/]*)\b/, token: "ttype"},
         {regex: /\b([A-Z][a-zA-Z0-9_]+)\b/, token: "ttype"},
         {regex: /\b([a-zA-Z_]+)\b/, token: "variable"},
@@ -22,19 +24,29 @@ document.addEventListener("DOMContentLoaded", function() {
     const editor1 = CodeMirror.fromTextArea(document.getElementById("codeBox1"), {
         lineNumbers: true,
         mode: "adl",
-        theme: "neo",
     });
 
     const editor2 = CodeMirror.fromTextArea(document.getElementById("codeBox2"), {
         lineNumbers: true,
         mode: "adl",
-        theme: "neo",
     });
+
+    // Function to adjust CodeMirror height based on content
+    function adjustEditorHeight(editor) {
+        const contentHeight = editor.getScrollInfo().height;
+        const containerHeight = editor.getWrapperElement().offsetHeight;
+
+        if (contentHeight > containerHeight) {
+            editor.setSize(null, contentHeight + 20);  // Add some padding
+        }
+    }
+
+    editor1.on("change", () => adjustEditorHeight(editor1));
+    editor2.on("change", () => adjustEditorHeight(editor2));
 
     const toggleExampleButton = document.getElementById('toggleExample');
     let exampleAdded = false;
 
-    // Placeholder example content (replace with your actual multiline content later)
     const exampleContent = `node type move_base {
     expects param cost_scaling_factor : double;
     expects param inflation_radius : double;
@@ -47,17 +59,17 @@ document.addEventListener("DOMContentLoaded", function() {
     robot_radius <= inflation_radius;
 }`;
 
-    // Toggle example content in editor1
     toggleExampleButton.addEventListener('click', () => {
         if (exampleAdded) {
-            editor1.setValue(""); // Clear the content
+            editor1.setValue("");
             toggleExampleButton.textContent = "Show Example";
             exampleAdded = false;
         } else {
-            editor1.setValue(exampleContent); // Add example content
+            editor1.setValue(exampleContent);
             toggleExampleButton.textContent = "Hide Example";
             exampleAdded = true;
         }
+        adjustEditorHeight(editor1);  // Adjust height after setting content
     });
 
     document.getElementById('checkSyntax').addEventListener('click', () => {
@@ -88,7 +100,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function parseCode(code) {
     if (!code) throw new Error("Code cannot be empty");
-    // Add actual parsing logic here
 }
 
 async function verifyCode(code1, code2) {
