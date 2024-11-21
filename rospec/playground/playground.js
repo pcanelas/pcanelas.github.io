@@ -1,7 +1,7 @@
 // Define the custom ADL syntax highlighting mode
 CodeMirror.defineSimpleMode("adl", {
     start: [
-        {regex: /\b(subscribers|subscribes to|publishes to|publishers|remapping to|calls service)\b/, token: "connection-keyword"},
+        {regex: /\b(subscribers|subscribes to|publishes|broadcasts|to|listens|dynamic|broadcast|listen|static|publishers|remapping to|calls service)\b/, token: "connection-keyword"},
         {regex: /\b(node|type|policy|rules|attach|message|service|action|qos policy|frame|link|hierarchy|alias|field|from|nodelet|instance|expects|ensures|and|or|optional|topic|param|where)\b/, token: "rospec-keyword"},
         {regex: /\b(exists|count|eventually|always|tag|qos|in|out|context|childs|parents)\b/, token: "special-keyword"},
         {regex: /@/, token: "special-keyword"}, // Added standalone @ symbol
