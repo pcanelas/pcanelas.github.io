@@ -1,7 +1,7 @@
 ---
 title:          "Is it a Bug? Understanding Physical Unit Mismatches in Robot Software"
 date:           2024-01-15 00:00:00 +0800
-selected:       true
+selected:       false
 pub:            "International Conference in Robotics and Automation (ICRA)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
