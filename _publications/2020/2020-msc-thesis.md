@@ -12,5 +12,5 @@ authors:
   - Paulo Santos
 links:
   DOI: http://hdl.handle.net/10451/48404
-  Thesis: https://repositorio.ul.pt/bitstream/10451/48404/1/ulfc126412_tm_Paulo_Santos.pdf
+  Thesis: https://repositorio.ulisboa.pt/bitstream/10451/48404/1/ulfc126412_tm_Paulo_Santos.pdf
 ---
