@@ -1,12 +1,12 @@
 ---
 title:          "Are Large Language Models Memorizing Bug Benchmarks?"
-date:           2024-11-21 00:00:00 +0800
+date:           2025-12-16 00:00:00 +0800
 selected:       true
-pub:           "ArXiv. "
+pub:           "Large Language Models for Code (LLM4Code) Workshop. "
 # pub_pre:        "Submitted to "
-pub_post:       'Under review'
-#pub_last:       '<span class="badge badge-pill badge-publication badge-success">Just Accepted!</span>&nbsp;&nbsp; 🎉'
-pub_date:       "2024"
+#pub_post:       'Under '
+pub_last:       '<span class="badge badge-pill badge-publication badge-success">Just Accepted!</span>&nbsp;&nbsp; 🎉'
+pub_date:       "2025"
 
 abstract: >- 
   Large Language Models (LLMs) have become integral to various software engineering tasks, including code generation, bug detection, and repair. 
