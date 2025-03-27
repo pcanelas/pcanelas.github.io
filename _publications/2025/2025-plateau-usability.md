@@ -22,8 +22,6 @@ authors:
   - Alcides Fonseca
   - Christopher S. Timperley
 links:
-  #DOI: 
   Paper: https://acme.able.cs.cmu.edu/pubs/uploads/pdf/2024_plateau_rospecusabilityCanelas_RospecADL_2025.pdf
-  #Artifact: 
   Slides: /assets/slides/2024-issta-misconfigurations.pdf
 ---
