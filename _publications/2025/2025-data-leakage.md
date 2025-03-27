@@ -2,7 +2,7 @@
 title:          "Are Large Language Models Memorizing Bug Benchmarks?"
 date:           2025-12-16 00:00:00 +0800
 selected:       true
-pub:           "Large Language Models for Code (LLM4Code) Workshop. "
+pub:           "Large Language Models for Code (LLM4Code) Workshop"
 # pub_pre:        "Submitted to "
 #pub_post:       'Under '
 pub_last:       '<span class="badge badge-pill badge-publication badge-success">Just Accepted!</span>&nbsp;&nbsp; 🎉'
