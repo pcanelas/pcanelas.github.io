@@ -17,5 +17,4 @@ authors:
   - Christopher S. Timperley
 links:
   Paper: https://acme.able.cs.cmu.edu/pubs/uploads/pdf/2024_plateau_rospecusabilityCanelas_RospecADL_2025.pdf
-  Slides: /assets/slides/2025-rospec-plateau.pdf
 ---
