@@ -55,6 +55,12 @@ img.lazy {
     font-size: 100%;
 }
 
+.badge-best-paper {
+    font-size: 100%;
+    background-color: darkorange;
+    color: white
+}
+
 .email-text {
     font-family: Courier, monospace;
 }

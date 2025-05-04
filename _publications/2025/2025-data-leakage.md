@@ -5,7 +5,7 @@ selected:       true
 pub:           "Large Language Models for Code (LLM4Code) Workshop"
 # pub_pre:        "Submitted to "
 #pub_post:       'Under '
-pub_last:       '<span class="badge badge-pill badge-publication badge-success">Just Accepted!</span>&nbsp;&nbsp; 🎉'
+pub_last:       '<span class="badge badge-pill badge-publication badge-best-paper">Best Paper Award</span>'
 pub_date:       "2025"
 
 abstract: >- 
@@ -30,5 +30,5 @@ links:
   DOI: https://doi.org/10.48550/arXiv.2411.13323
   Paper: https://arxiv.org/pdf/2411.13323
   Artifact: https://anonymous.4open.science/r/bugleakage-C786
-#  Slides: /assets/slides/2024-issta-misconfigurations.pdf
+  Slides: /assets/slides/2025-llm4code.pdf
 ---
