@@ -26,5 +26,6 @@ links:
 #  DOI: ./
 #  Paper: ./
   Artifact: https://rospec.pcanelas.com
+  Poster: /assets/poster/2025-poster-rospec.pdf
 #  Slides: ./
 ---
