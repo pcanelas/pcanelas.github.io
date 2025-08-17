@@ -13,7 +13,8 @@ abstract: >-
     However, these components often lack proper configuration documentation. 
     When documentation exists, its natural language specifications are unenforced, leading to misconfigurations that cause unpredictable and dangerous robot behaviors.
 
-    We introduce rospec, a ROS-tailored domain-specific language for specifying and verifying component configurations and integration. Informed by empirical studies on misconfigurations, rospec verifies argument and component configurations, ensures correct component integration through communication property checks, and validates configurations against deployment constraints.
+    We introduce rospec, a ROS domain-specific language for specifying and verifying component configurations and integration. 
+    Informed by prior work on misconfigurations, rospec verifies component configurations, ensures correct component integration through communication properties, and validates configurations against deployment constraints.
     We demonstrate rospec's effectiveness by modeling a 19-component warehouse robot and implementing partial specifications for components from 182 misconfiguration questions extracted from robotics Q&A platforms.
 
 authors:
