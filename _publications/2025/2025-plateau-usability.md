@@ -16,5 +16,6 @@ authors:
   - Alcides Fonseca
   - Christopher S. Timperley
 links:
+  DOI: https://doi.org/10.1184/R1/29087072
   Paper: https://acme.able.cs.cmu.edu/pubs/uploads/pdf/2024_plateau_rospecusabilityCanelas_RospecADL_2025.pdf
 ---
