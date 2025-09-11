@@ -23,8 +23,8 @@ authors:
   - Alcides Fonseca
   - Christopher S. Timperley
 links:
-#  DOI: ./
-#  Paper: ./
+  DOI: https://doi.org/10.1145/3763169
+  Paper: /assets/papers/2025-paper-rospec.pdf
   Artifact: https://rospec.pcanelas.com
   Poster: /assets/poster/2025-poster-rospec.pdf
 #  Slides: ./
