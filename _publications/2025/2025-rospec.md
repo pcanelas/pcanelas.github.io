@@ -26,6 +26,7 @@ links:
   DOI: https://doi.org/10.1145/3763169
   Paper: /assets/papers/2025-paper-rospec.pdf
   Artifact: https://rospec.pcanelas.com
-  Poster: /assets/poster/2025-poster-rospec.pdf
   Slides: /assets/slides/2025-rospec-oopsla.pdf
+  Poster: /assets/poster/2025-poster-rospec.pdf
+  Talk: https://www.youtube.com/live/Xas3kLG8Z9w?si=SbB8FP-AZONxl-ku&t=27130
 ---
