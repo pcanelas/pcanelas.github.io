@@ -1,7 +1,7 @@
 ---
 title:          "Understanding Misconfigurations in ROS: An Empirical Study and Current Approaches"
 date:           2024-07-03 00:00:00 +0800
-selected:       true
+selected:       false
 pub:            "International Symposium on Software Testing and Analysis (ISSTA)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
