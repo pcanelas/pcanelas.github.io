@@ -5,7 +5,7 @@ selected:       true
 pub:           "Mining Challenge at International Conference on Mining Software Repositories (MSR)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under '
-#pub_last:       '<span class="badge badge-pill badge-publication badge-success">Just Accepted!</span>&nbsp;&nbsp; 🎉'
+pub_last:       '<span class="badge badge-pill badge-publication badge-success">Just Accepted!</span>&nbsp;&nbsp; 🎉'
 pub_date:       "2026"
 
 abstract: >- 
