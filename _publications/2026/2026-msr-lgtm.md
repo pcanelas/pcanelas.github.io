@@ -26,4 +26,5 @@ links:
   DOI: https://doi.org/10.1145/3793302.3793621
   Paper: /assets/papers/2026-msr-lgtm.pdf
   Artifact: https://doi.org/10.5281/zenodo.18341679
+  Poster: /assets/poster/2026-poster-lgtm.pdf
 ---
