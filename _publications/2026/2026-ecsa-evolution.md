@@ -25,5 +25,5 @@ authors:
   - Christopher S. Timperley
 links:
   Paper: /assets/papers/2026-ecsa-evolution.pdf
-  Artifact: https://figshare.com/s/6843f1c2fd88b48b6ed6
+  Artifact: https://zenodo.org/records/20691874
 ---
